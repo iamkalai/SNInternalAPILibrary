@@ -13,10 +13,10 @@ More information about this can be found on this [blog](https://community.servic
 ### Usage
 - Installing the update set will create a application for easy accessibility.
 
-![Application Image](https://github.com/iamkalai/SNInternalAPILibrary/blob/master/doc/images/1.png "SN Application Image")
+![Application Image](https://github.com/iamkalai/SNInternalAPILibrary/blob/master/doc/images/2.png "SN Application Image")
 
 - Use the *Create New* menu to create a new article.
 
-![New Article](https://github.com/iamkalai/SNInternalAPILibrary/blob/master/doc/images/2.png "Create new article")
+![New Article](https://github.com/iamkalai/SNInternalAPILibrary/blob/master/doc/images/1.png "Create new article")
 
 - Use the *Search* module of the application or use the global search for searching the articles. 
