@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2017-08-27 09:12:08">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>This update set creates a knowledge base and its related objects that can be used to provide an improved DevOps experience.</description>
+<inserted/>
+<name>Internal API-V1.0</name>
+<origin_sys_id/>
+<release_date/>
+<remote_sys_id>35908360dbc63200d8ccd421cf9619ff</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-27 09:12:07</sys_created_on>
+<sys_id>58b5845edb388300d8ccd421cf961953</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-27 09:12:07</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_category_cb6e2f46db388300d8ccd421cf961968</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_category"><kb_category action="INSERT_OR_UPDATE"><active>true</active><full_category>System Documentation</full_category><label>System Documentation</label><parent_id>38c9a1e8dbb77200d8ccd421cf961979</parent_id><parent_table>kb_knowledge_base</parent_table><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-27 07:30:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cb6e2f46db388300d8ccd421cf961968</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-27 07:30:28</sys_updated_on><value>System Documentation</value></kb_category></record_update>]]></payload>
+<remote_update_set display_value="Internal API-V1.0">58b5845edb388300d8ccd421cf961953</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-27 09:12:07</sys_created_on>
+<sys_id>10b5845edb388300d8ccd421cf961954</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-27 09:12:07</sys_updated_on>
+<table/>
+<target_name>System Documentation</target_name>
+<type>Knowledge Category</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_257073c6db388300d8ccd421cf96194d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0.00</misc><order>120</order><question display_value="Select Article Type">4e4f6786db388300d8ccd421cf9619ef</question><rec_misc>0.00</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-27 07:39:23</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>257073c6db388300d8ccd421cf96194d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>System Documentation</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_257073c6db388300d8ccd421cf96194d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-27 07:39:23</sys_updated_on><text>System Documentation</text><value>system_documentation</value></question_choice><fx_price action="delete_multiple" query="id=257073c6db388300d8ccd421cf96194d"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>257073c6db388300d8ccd421cf96194d</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-27 07:39:23</sys_created_on><sys_id>697073c6db388300d8ccd421cf96194d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-27 07:39:23</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>257073c6db388300d8ccd421cf96194d</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-27 07:39:23</sys_created_on><sys_id>e57073c6db388300d8ccd421cf96194d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-27 07:39:23</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+<remote_update_set display_value="Internal API-V1.0">58b5845edb388300d8ccd421cf961953</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-27 09:12:08</sys_created_on>
+<sys_id>14b5845edb388300d8ccd421cf961954</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-27 09:12:08</sys_updated_on>
+<table/>
+<target_name>System Documentation</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_producer_39eeaf46db388300d8ccd421cf961944</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;availability&gt;on_both&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[&lt;p&gt;&lt;strong&gt;Please note that this will publish a API article.&lt;/strong&gt;&lt;/p&gt;]]&gt;&lt;/description&gt;&lt;entitlement_script/&gt;&lt;group/&gt;&lt;icon/&gt;&lt;ignore_price&gt;false&lt;/ignore_price&gt;&lt;image/&gt;&lt;list_price&gt;0.00&lt;/list_price&gt;&lt;location/&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Add Internal API&lt;/name&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;picture/&gt;&lt;preview&gt;JavaScript: popupOpenStandard("./com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=39eeaf46db388300d8ccd421cf961944&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0.00&lt;/price&gt;&lt;recurring_frequency/&gt;&lt;recurring_price&gt;0.00&lt;/recurring_price&gt;&lt;roles&gt;admin&lt;/roles&gt;&lt;sc_catalogs&gt;e0d08b13c3330100c8b837659bba8fb4&lt;/sc_catalogs&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;script&gt;&lt;![CDATA[if(producer.u_article_type=='script_documentation')
+	current.kb_category='c57eeb46db388300d8ccd421cf961978';
+else if(producer.u_article_type=='system_documentation')
+	current.kb_category='cb6e2f46db388300d8ccd421cf961968';
+else
+	current.kb_category='5391fb86db388300d8ccd421cf96191c';
+
+gs.addInfoMessage("Below Knowledge Article Is Submitted And Published");
+]]&gt;&lt;/script&gt;&lt;short_description/&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-08-27 07:32:34&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;39eeaf46db388300d8ccd421cf961944&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Add Internal API&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_39eeaf46db388300d8ccd421cf961944&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-08-27 08:16:28&lt;/sys_updated_on&gt;&lt;table_name&gt;kb_knowledge&lt;/table_name&gt;&lt;template display_value="Internal API Template"&gt;90a3f70adb388300d8ccd421cf96197c&lt;/template&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=39eeaf46db388300d8ccd421cf961944"/&gt;&lt;fx_price action="delete_multiple" query="id=39eeaf46db388300d8ccd421cf961944"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;39eeaf46db388300d8ccd421cf961944&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-08-27 07:32:34&lt;/sys_created_on&gt;&lt;sys_id&gt;7deeaf46db388300d8ccd421cf961944&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-08-27 07:32:34&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;recurring_price&lt;/field&gt;&lt;id&gt;39eeaf46db388300d8ccd421cf961944&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-08-27 07:32:34&lt;/sys_created_on&gt;&lt;sys_id&gt;71eeaf46db388300d8ccd421cf961945&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-08-27 07:32:34&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Internal API-V1.0">58b5845edb388300d8ccd421cf961953</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-27 09:12:08</sys_created_on>
+<sys_id>18b5845edb388300d8ccd421cf961954</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-27 09:12:08</sys_updated_on>
+<table>kb_knowledge</table>
+<target_name>Add Internal API</target_name>
+<type>Record Producer</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_512fa786db388300d8ccd421cf961925</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Add Internal APIs">39eeaf46db388300d8ccd421cf961944</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><field>short_description</field><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>true</mandatory><map_to_field>true</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>short_description</name><order>200</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Enter Short Description</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table>kb_knowledge</record_producer_table><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-27 07:33:37</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>512fa786db388300d8ccd421cf961925</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Enter Short Description</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_512fa786db388300d8ccd421cf961925</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-27 07:33:37</sys_updated_on><table/><tooltip/><type>6</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=512fa786db388300d8ccd421cf961925"/></record_update>]]></payload>
+<remote_update_set display_value="Internal API-V1.0">58b5845edb388300d8ccd421cf961953</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-27 09:12:07</sys_created_on>
+<sys_id>1cb5845edb388300d8ccd421cf961953</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-27 09:12:07</sys_updated_on>
+<table/>
+<target_name>Enter Short Description</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_98cf71a0dbf77200d8ccd421cf96196b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;kb_knowledge&lt;/collection&gt;&lt;condition&gt;new KBKnowledge().canPublish(current) &amp;amp;&amp;amp; current.workflow_state == 'draft' &amp;amp;&amp;amp; current.kb_knowledge_base == '38c9a1e8dbb77200d8ccd421cf961979'&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;true&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Run publish workflow for internal API&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[function onAfter(current, previous) {
+	new KBWorkflow().startWorkflow(current, "workflow");
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-07-03 14:33:16&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;98cf71a0dbf77200d8ccd421cf96196b&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Run publish workflow for internal API&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_98cf71a0dbf77200d8ccd421cf96196b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-07-03 14:36:15&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=98cf71a0dbf77200d8ccd421cf96196b"/&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Internal API-V1.0">58b5845edb388300d8ccd421cf961953</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-27 09:12:08</sys_created_on>
+<sys_id>1cb5845edb388300d8ccd421cf961954</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-27 09:12:08</sys_updated_on>
+<table>kb_knowledge</table>
+<target_name>Run publish workflow for internal API</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_knowledge_base_38c9a1e8dbb77200d8ccd421cf961979</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_knowledge_base"><kb_knowledge_base action="INSERT_OR_UPDATE"><active>true</active><approval_description/><card_color/><data_policy/><description>This knowledge base is used for internal API.</description><disable_category_editing>false</disable_category_editing><disable_commenting>false</disable_commenting><disable_suggesting>false</disable_suggesting><enable_socialqa>true</enable_socialqa><icon/><kb_managers/><kb_version>3</kb_version><mandatory_fields/><order>200</order><owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner><question_annotation/><retire_workflow display_value="Knowledge - Instant Retire">3d18ef12c30031000096dfdc64d3aeb6</retire_workflow><sys_created_by>admin</sys_created_by><sys_created_on>2017-07-03 13:02:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>38c9a1e8dbb77200d8ccd421cf961979</sys_id><sys_mod_count>14</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-26 16:12:09</sys_updated_on><table>kb_knowledge</table><template/><title>API Library</title><workflow display_value="Knowledge - Instant Publish">fbe441019f112100d8f8700c267fcf1a</workflow></kb_knowledge_base><sys_translated_text action="delete_multiple" query="documentkey=38c9a1e8dbb77200d8ccd421cf961979"/><sys_attachment action="INSERT_OR_UPDATE"><average_image_color/><compressed>true</compressed><content_type>image/png</content_type><file_name>icon</file_name><image_height/><image_width/><size_bytes>1347</size_bytes><size_compressed>1370</size_compressed><sys_created_by>admin</sys_created_by><sys_created_on>2017-07-03 13:41:06</sys_created_on><sys_id>04d3bd6cdbb77200d8ccd421cf961901</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-07-03 13:41:06</sys_updated_on><table_name>ZZ_YYkb_knowledge_base</table_name><table_sys_id>38c9a1e8dbb77200d8ccd421cf961979</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAA==</data><length>16</length><position>0</position><sys_attachment display_value="icon" sys_id="04d3bd6cdbb77200d8ccd421cf961901">04d3bd6cdbb77200d8ccd421cf961901</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2017-07-03 13:41:06</sys_created_on><sys_id>44d3bd6cdbb77200d8ccd421cf961901</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>AUMFvPqJUE5HDQoaCgAAAA1JSERSAAAAHgAAAB4IBgAAADswrqIAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOxAAADsQBlSsOGwAABNhJREFUSEvFl2lMXFUUx/+zMcPOIIu0QMBQCo1daBoVMFoJLSXS2prUtS02anCjCk3afihqjIlE0CKa+qWmSmNMTJvYaqU1GjVaMRqStqS11NLKvrQ47MPMwOA5Z97MPAaGgIzxl7zhvvvePf97zz3n3IdmisD/wIKF23r+xuXrXeizDAM0MiYqDJl3JCB1SYzyxvyYl3DzXz14u+4MTnzbiAmnE0F6PbRajTxzOqfgmJgkS8C29VnYu3MjVqcnybO5mFN4bNyOopdr8cvFFkRHhMIUZPAI+uIkMzabA5bhMRE+XbtHxvhDq/ydwckfziPq/j242tqLxDgzQkxBfkUZrUaDYHpnSWwUOnotiM8vx7HTDcrTmcy64trPvsPeQ58j+fZoaMjgv4HNdvYN4MDuQrxeskXp9TJjxbzSxYoyPDYx3ozKj+tx9NQ5pdfLtBXznrJ7k2jAYkTVsPnW7n50na1GXHSE0uuzYg6kOHN4wEQZtsX7Xlj6ntLjwiN8hVKGo9dkNCg9gSPIoBf7vzZdV3pUwlWfnJk1/K02OyxDo3JNTjqVXmCCctfd77rGMDw2LmnFl+8Yc3gIqurOSpvx7HHkfaW4LTJsWsqwaEH2nXg4by3NWocXKz8lQafsGwdOxbNFJGaDXkvzp2GcehxMocFGHH3tKZnAvprjGByxit2umwOwNnwotvX809bTj0mqSGpRNt4/MIp3yx9BFM2WKd6ci/cp1dh15ogQmRTD77rjIndNGvKfewf5d6+Q+1eNp6So6DRaGGjcxT87sGpZosvVl1q6pAyq4TK4Kj1RRFva+6Sv9NE8DIyMUWuKJupNf23cFjxU9oG0c1enwWafkDbDq3Zj0OmkzjMizAXftypxarEQU33sG1wj8ciwYKzLTIGda7OKN94qQXXZdmn39A9Cp/OEzjRY46ZlxNWWX5/axa4btdqw88Fsuf/qpws4TgcE89JjefJMTcUzRViWHC+iG184JNvgjylFTIRjzGFyyrgZtzuwjQLKTXt9lZQ+5vGCuyjoHNTyvq9JfwLB2c8jfetBiW526Wyw22PpGGVEeEVqgutoUxi12rFvV4G0f2xsRsXhL7C/9oSkELOLPGF3eN8PoQLBRSIuOhwGPZlU7Zp6B3l8RkqCtCWiUpfGyg3PiN8zBellPb9duoEDJNjc1gs7BUyIyYDCnJVYmbYUTdc65DmfSiZjkIwX6F5H6dX4R6vYszkmJOJ5+zjosjKSXa9Rh/hsx8Ej+P73K3K0cRe7jB9EhJpoFS7XjVDOsiEjpYWRJjc0Oi4T5T1Vl1kW5PEMB6Sego23L2t5Mr6sKZV+j/D55jbk7K4Ul/0X9PYPiej6dcvl3hP3a2g2nNjqHAwUHD98zLpFGY8ww58rnBKKEwIC2+rss4htNdOEuVYfqShGJ9XUQNFDLq56ZTtSfL5CpwkzxZtzsL94k8xyMSvnsd23BvH01ntR9uQGpdfLrN9czEcnf0bJm3USbHwoLATeU544r3Q2UcavMMORuKm0Ro47Pk85hfx9nbAZTrXBYSuSKJC+pj31da+aOYXdNNCXCR/i9eeaZPV6ymsuHDwFzlleIWfDhnsyUb6jAA+ootcf8xJWc+FqOy7f6MYtOtF4JP8Lk0Eld61SkebLgoUDA/APNMI/xz8e/kYAAAAASUVORK5CYII0+9KxQwUAAA==</data><length>1816</length><position>1</position><sys_attachment display_value="icon" sys_id="04d3bd6cdbb77200d8ccd421cf961901">04d3bd6cdbb77200d8ccd421cf961901</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2017-07-03 13:41:06</sys_created_on><sys_id>c4d3bd6cdbb77200d8ccd421cf961901</sys_id></sys_attachment_doc></record_update>]]></payload>
+<remote_update_set display_value="Internal API-V1.0">58b5845edb388300d8ccd421cf961953</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-27 09:12:07</sys_created_on>
+<sys_id>50b5845edb388300d8ccd421cf961954</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-27 09:12:07</sys_updated_on>
+<table>kb_knowledge</table>
+<target_name>API Library</target_name>
+<type>Knowledge Base</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_697073c6db388300d8ccd421cf96194c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0.00</misc><order>110</order><question display_value="Select Article Type">4e4f6786db388300d8ccd421cf9619ef</question><rec_misc>0.00</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-27 07:39:23</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>697073c6db388300d8ccd421cf96194c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Script Documentation&#13;</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_697073c6db388300d8ccd421cf96194c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-27 07:39:23</sys_updated_on><text>Script Documentation&#13;</text><value>script_documentation</value></question_choice><fx_price action="delete_multiple" query="id=697073c6db388300d8ccd421cf96194c"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>697073c6db388300d8ccd421cf96194c</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-27 07:39:23</sys_created_on><sys_id>ad7073c6db388300d8ccd421cf96194c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-27 07:39:23</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>697073c6db388300d8ccd421cf96194c</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-27 07:39:23</sys_created_on><sys_id>2d7073c6db388300d8ccd421cf96194c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-27 07:39:23</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+<remote_update_set display_value="Internal API-V1.0">58b5845edb388300d8ccd421cf961953</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-27 09:12:08</sys_created_on>
+<sys_id>54b5845edb388300d8ccd421cf961954</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-27 09:12:08</sys_updated_on>
+<table/>
+<target_name>Script Documentation</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_31db6786dbb48300d8ccd421cf9619f1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description>This Application contains list of internal API references, best practice references, etc.</description><device_type>browser</device_type><hint>This application is for internal purpose only</hint><name/><order>-1</order><roles>admin</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-27 07:19:12</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>31db6786dbb48300d8ccd421cf9619f1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Internal API Library</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_31db6786dbb48300d8ccd421cf9619f1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-27 07:19:12</sys_updated_on><title>Internal API Library</title><view_name/></sys_app_application></record_update>]]></payload>
+<remote_update_set display_value="Internal API-V1.0">58b5845edb388300d8ccd421cf961953</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-27 09:12:08</sys_created_on>
+<sys_id>58b5845edb388300d8ccd421cf961954</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-27 09:12:08</sys_updated_on>
+<table/>
+<target_name>Internal API Library</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_6b2fef46db388300d8ccd421cf961917</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Add Internal APIs">39eeaf46db388300d8ccd421cf961944</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><field>text</field><global>false</global><help_tag>More information</help_tag><help_text>Please include detailed info, relevant links, etc</help_text><include_none>false</include_none><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>true</mandatory><map_to_field>true</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>text</name><order>300</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Enter Description</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table>kb_knowledge</record_producer_table><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>true</show_help><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-27 07:33:46</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>6b2fef46db388300d8ccd421cf961917</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Enter Description</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_6b2fef46db388300d8ccd421cf961917</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-27 07:33:46</sys_updated_on><table/><tooltip/><type>23</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=6b2fef46db388300d8ccd421cf961917"/></record_update>]]></payload>
+<remote_update_set display_value="Internal API-V1.0">58b5845edb388300d8ccd421cf961953</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-27 09:12:07</sys_created_on>
+<sys_id>5cb5845edb388300d8ccd421cf961953</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-27 09:12:07</sys_updated_on>
+<table/>
+<target_name>Enter Description</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_template_90a3f70adb388300d8ccd421cf96197c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template"><sys_template action="INSERT_OR_UPDATE"><active>true</active><global>false</global><group/><link_element/><name>Internal API Template</name><next/><next_child/><roles/><short_description>Add Internal API Entry</short_description><show_on_template_bar>true</show_on_template_bar><stand_alone>false</stand_alone><sys_class_name>sys_template</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-27 07:53:13</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>90a3f70adb388300d8ccd421cf96197c</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Internal API Template</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_template_90a3f70adb388300d8ccd421cf96197c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-27 08:37:33</sys_updated_on><table>kb_knowledge</table><template>kb_knowledge_base=38c9a1e8dbb77200d8ccd421cf961979^display_attachments=true^topic=News^EQ</template><user/><view/></sys_template></record_update>]]></payload>
+<remote_update_set display_value="Internal API-V1.0">58b5845edb388300d8ccd421cf961953</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-27 09:12:08</sys_created_on>
+<sys_id>5cb5845edb388300d8ccd421cf961954</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-27 09:12:08</sys_updated_on>
+<table>kb_knowledge</table>
+<target_name>Internal API Template</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_uc_can_contribute_mtom_e3f8f120dbf77200d8ccd421cf9619fb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_contribute_mtom"><kb_uc_can_contribute_mtom action="INSERT_OR_UPDATE"><kb_knowledge_base display_value="API Library">38c9a1e8dbb77200d8ccd421cf961979</kb_knowledge_base><sys_created_by>admin</sys_created_by><sys_created_on>2017-07-03 14:03:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>e3f8f120dbf77200d8ccd421cf9619fb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-07-03 14:03:44</sys_updated_on><user_criteria display_value="Users with 'Admin' Role">cb8e06e9d7103100f2d224837e610339</user_criteria></kb_uc_can_contribute_mtom></record_update>]]></payload>
+<remote_update_set display_value="Internal API-V1.0">58b5845edb388300d8ccd421cf961953</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-27 09:12:08</sys_created_on>
+<sys_id>90b5845edb388300d8ccd421cf961954</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-27 09:12:08</sys_updated_on>
+<table/>
+<target_name>API Library.Users with 'Admin' Role</target_name>
+<type>Who Can Contribute To Knowledge Base</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_ad7073c6db388300d8ccd421cf96194b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0.00</misc><order>100</order><question display_value="Select Article Type">4e4f6786db388300d8ccd421cf9619ef</question><rec_misc>0.00</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-27 07:39:23</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>ad7073c6db388300d8ccd421cf96194b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Best Practice&#13;</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_ad7073c6db388300d8ccd421cf96194b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-27 07:39:23</sys_updated_on><text>Best Practice&#13;</text><value>best_practice</value></question_choice><fx_price action="delete_multiple" query="id=ad7073c6db388300d8ccd421cf96194b"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>ad7073c6db388300d8ccd421cf96194b</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-27 07:39:23</sys_created_on><sys_id>e17073c6db388300d8ccd421cf96194c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-27 07:39:23</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>ad7073c6db388300d8ccd421cf96194b</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-27 07:39:23</sys_created_on><sys_id>617073c6db388300d8ccd421cf96194c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-27 07:39:23</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+<remote_update_set display_value="Internal API-V1.0">58b5845edb388300d8ccd421cf961953</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-27 09:12:08</sys_created_on>
+<sys_id>94b5845edb388300d8ccd421cf961954</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-27 09:12:08</sys_updated_on>
+<table/>
+<target_name>Best Practice</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_244daf06db388300d8ccd421cf961983</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Internal API Library">31db6786dbb48300d8ccd421cf9619f1</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>Create New Internal API Entry</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>kb_knowledge</name><order>100</order><override_menu_roles>false</override_menu_roles><query>/com.glideapp.servicecatalog_cat_item_view.do?sysparm_id=39eeaf46db388300d8ccd421cf961944&amp;v=1</query><report/><roles/><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-27 07:25:22</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>244daf06db388300d8ccd421cf961983</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Create New</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_244daf06db388300d8ccd421cf961983</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-27 07:59:12</sys_updated_on><timeline_page/><title>Create New</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<remote_update_set display_value="Internal API-V1.0">58b5845edb388300d8ccd421cf961953</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-27 09:12:08</sys_created_on>
+<sys_id>98b5845edb388300d8ccd421cf961954</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-27 09:12:08</sys_updated_on>
+<table>kb_knowledge</table>
+<target_name>Create New</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_category_5391fb86db388300d8ccd421cf96191c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_category"><kb_category action="INSERT_OR_UPDATE"><active>true</active><full_category>Best Practice</full_category><label>Best Practice</label><parent_id>38c9a1e8dbb77200d8ccd421cf961979</parent_id><parent_table>kb_knowledge_base</parent_table><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-27 07:44:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5391fb86db388300d8ccd421cf96191c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-27 07:44:24</sys_updated_on><value>Best Practice</value></kb_category></record_update>]]></payload>
+<remote_update_set display_value="Internal API-V1.0">58b5845edb388300d8ccd421cf961953</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-27 09:12:07</sys_created_on>
+<sys_id>9cb5845edb388300d8ccd421cf961953</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-27 09:12:07</sys_updated_on>
+<table/>
+<target_name>Best Practice</target_name>
+<type>Knowledge Category</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>ts_group_a13c670adb748300d8ccd421cf9619db</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ts_group"><ts_group action="INSERT_OR_UPDATE"><active>true</active><description>This is used to search the internal API library</description><group/><name>Internal API Library</name><order>100</order><roles>admin</roles><searched>true</searched><sys_class_name>ts_group</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-27 07:21:25</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>a13c670adb748300d8ccd421cf9619db</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Internal API Library</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>ts_group_a13c670adb748300d8ccd421cf9619db</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-27 07:22:18</sys_updated_on><tables>Knowledge</tables></ts_group></record_update>]]></payload>
+<remote_update_set display_value="Internal API-V1.0">58b5845edb388300d8ccd421cf961953</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-27 09:12:08</sys_created_on>
+<sys_id>9cb5845edb388300d8ccd421cf961954</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-27 09:12:08</sys_updated_on>
+<table/>
+<target_name>Internal API Library</target_name>
+<type>Text Search Groups</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_uc_can_read_mtom_9b0979ecdbb77200d8ccd421cf9619c0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_read_mtom"><kb_uc_can_read_mtom action="INSERT_OR_UPDATE"><kb_knowledge_base display_value="API Library">38c9a1e8dbb77200d8ccd421cf961979</kb_knowledge_base><sys_created_by>admin</sys_created_by><sys_created_on>2017-07-03 14:03:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>9b0979ecdbb77200d8ccd421cf9619c0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-07-03 14:03:59</sys_updated_on><user_criteria display_value="Users with 'Admin' Role">cb8e06e9d7103100f2d224837e610339</user_criteria></kb_uc_can_read_mtom></record_update>]]></payload>
+<remote_update_set display_value="Internal API-V1.0">58b5845edb388300d8ccd421cf961953</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-27 09:12:08</sys_created_on>
+<sys_id>d0b5845edb388300d8ccd421cf961954</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-27 09:12:08</sys_updated_on>
+<table/>
+<target_name>Users with 'Admin' Role.API Library</target_name>
+<type>Who Can Read Knowledge Base</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_catalog_79eeaf46db388300d8ccd421cf961945</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Add Internal API">39eeaf46db388300d8ccd421cf961944</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-27 07:32:34</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>79eeaf46db388300d8ccd421cf961945</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Service Catalog.Add Internal API</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_catalog_79eeaf46db388300d8ccd421cf961945</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-27 07:37:36</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+<remote_update_set display_value="Internal API-V1.0">58b5845edb388300d8ccd421cf961953</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-27 09:12:08</sys_created_on>
+<sys_id>d4b5845edb388300d8ccd421cf961954</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-27 09:12:08</sys_updated_on>
+<table/>
+<target_name>Service Catalog.Add Internal API</target_name>
+<type>Catalog Items Catalog</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_4e4f6786db388300d8ccd421cf9619ef</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Add Internal API">39eeaf46db388300d8ccd421cf961944</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>true</include_none><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>true</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_article_type</name><order>100</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Select Article Type</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table>kb_knowledge</record_producer_table><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-27 07:34:13</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>4e4f6786db388300d8ccd421cf9619ef</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Select Article Type</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_4e4f6786db388300d8ccd421cf9619ef</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-27 08:15:52</sys_updated_on><table/><tooltip/><type>5</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=4e4f6786db388300d8ccd421cf9619ef"/></record_update>]]></payload>
+<remote_update_set display_value="Internal API-V1.0">58b5845edb388300d8ccd421cf961953</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-27 09:12:07</sys_created_on>
+<sys_id>d8b5845edb388300d8ccd421cf961953</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-27 09:12:07</sys_updated_on>
+<table/>
+<target_name>Select Article Type</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_3f6de706db388300d8ccd421cf961957</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Internal API Library">31db6786dbb48300d8ccd421cf9619f1</application><assessment/><content_page/><device_type/><filter table="kb_knowledge">kb_category.parent_table=kb_category^kb_category.parent_id=8f6432cddbbab200d5e15f6e5e961928^EQ<item endquery="false" field="kb_category.parent_table" goto="false" newquery="false" operator="=" or="false" value="kb_category"/><item endquery="false" field="kb_category.parent_id" goto="false" newquery="false" operator="=" or="false" value="8f6432cddbbab200d5e15f6e5e961928"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>Create New Internal API Entry</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>kb_knowledge</name><order>200</order><override_menu_roles>false</override_menu_roles><query>/$knowledge.do?sysparm_type_filter=all&amp;sysparm_kb=38c9a1e8dbb77200d8ccd421cf961979&amp;browse_type=categories</query><report/><roles/><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-27 07:26:09</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3f6de706db388300d8ccd421cf961957</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Search</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_3f6de706db388300d8ccd421cf961957</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-27 07:26:09</sys_updated_on><timeline_page/><title>Search</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<remote_update_set display_value="Internal API-V1.0">58b5845edb388300d8ccd421cf961953</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-27 09:12:08</sys_created_on>
+<sys_id>d8b5845edb388300d8ccd421cf961954</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-27 09:12:08</sys_updated_on>
+<table>kb_knowledge</table>
+<target_name>Search</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_category_c57eeb46db388300d8ccd421cf961978</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_category"><kb_category action="INSERT_OR_UPDATE"><active>true</active><full_category>Script Documentation</full_category><label>Script Documentation</label><parent_id>38c9a1e8dbb77200d8ccd421cf961979</parent_id><parent_table>kb_knowledge_base</parent_table><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-27 07:30:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c57eeb46db388300d8ccd421cf961978</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-27 07:44:09</sys_updated_on><value>Script Documentation</value></kb_category></record_update>]]></payload>
+<remote_update_set display_value="Internal API-V1.0">58b5845edb388300d8ccd421cf961953</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-27 09:12:07</sys_created_on>
+<sys_id>dcb5845edb388300d8ccd421cf961953</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-27 09:12:07</sys_updated_on>
+<table/>
+<target_name>Script Documentation</target_name>
+<type>Knowledge Category</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>ts_table_906ca706db388300d8ccd421cf961974</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ts_table"><ts_table action="INSERT_OR_UPDATE"><active>true</active><condition table="kb_knowledge">kb_knowledge_base=38c9a1e8dbb77200d8ccd421cf961979^workflow_state=published^EQ<item display_table="kb_knowledge_base" display_value="API Library" endquery="false" field="kb_knowledge_base" goto="false" newquery="false" operator="=" or="false" value="38c9a1e8dbb77200d8ccd421cf961979"/><item endquery="false" field="workflow_state" goto="false" newquery="false" operator="=" or="false" value="published"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><group display_value="Internal API Library">a13c670adb748300d8ccd421cf9619db</group><label/><name>kb_knowledge</name><order>100</order><searched>true</searched><sys_class_name>ts_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-27 07:22:18</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>906ca706db388300d8ccd421cf961974</sys_id><sys_mod_count>0</sys_mod_count><sys_name>kb_knowledge</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>ts_table_906ca706db388300d8ccd421cf961974</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-27 07:22:18</sys_updated_on></ts_table></record_update>]]></payload>
+<remote_update_set display_value="Internal API-V1.0">58b5845edb388300d8ccd421cf961953</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-27 09:12:08</sys_created_on>
+<sys_id>dcb5845edb388300d8ccd421cf961954</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-27 09:12:08</sys_updated_on>
+<table>kb_knowledge</table>
+<target_name>kb_knowledge</target_name>
+<type>Text Search Table</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
